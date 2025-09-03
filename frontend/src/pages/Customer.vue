@@ -32,27 +32,6 @@
       <button type="submit">Add Customer</button>
     </form>
 
-    <!-- Customers Table -->
-    <table>
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>Name</th>
-          <th>Email</th>
-          <th>Phone</th>
-          <th>Location</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="c in customers" :key="c.id">
-          <td>{{ c.id }}</td>
-          <td>{{ c.name }}</td>
-          <td>{{ c.email }}</td>
-          <td>{{ c.phone }}</td>
-          <td>{{ c.location }}</td>
-        </tr>
-      </tbody>
-    </table>
   </div>
 </template>
 
