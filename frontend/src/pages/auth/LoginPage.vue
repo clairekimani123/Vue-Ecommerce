@@ -1,7 +1,9 @@
-<script setup lang="ts">
+<script setup >
 import Logo from '@/components/Logo.vue';
 import AuthLogin from '@/components/Auth/AuthLogin.vue';
 import AuthFooter from '@/components/Auth/AuthFooter.vue';
+
+
 </script>
 
 <template>
@@ -24,7 +26,7 @@ import AuthFooter from '@/components/Auth/AuthFooter.vue';
     </v-col>
     <v-col cols="12">
       <v-container class="pt-0 pb-6">
-        <AuthFooter />
+        <!-- <AuthFooter /> -->
       </v-container>
     </v-col>
   </v-row>

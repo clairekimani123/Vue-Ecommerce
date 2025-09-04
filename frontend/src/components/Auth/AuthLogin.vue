@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup >
 import { ref } from "vue";
 import { useAuthStore } from "@/store/auth";
 import { EyeOutlined, EyeInvisibleOutlined } from "@ant-design/icons-vue";
@@ -12,7 +12,7 @@ const auth = useAuthStore();
 
 const handleLogin = async () => {
   try {
-    await auth.login(email.value, password.value, role.value as "customer" | "supplier");
+    await auth.login(email.value, password.value);
     alert("Login successful!");
   } catch (error) {
     alert("Login failed. Please check your credentials.");

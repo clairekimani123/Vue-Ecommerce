@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import api from "@/services/api";
+// Make sure the api service exists at src/services/api.ts or update the path accordingly
+import api from "../services/api";
 
 const name = ref("");
 const email = ref("");

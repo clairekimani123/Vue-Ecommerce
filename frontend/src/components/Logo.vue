@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center space-x-2">
     <!-- You can replace with your own logo image -->
-    <img src="@/assets/logo.png" alt="App Logo" class="h-10 w-10" />
+    <!-- <img src="@/assets/logo.png" alt="App Logo" class="h-10 w-10" /> -->
     <span class="text-xl font-bold text-green-600">INVENTORY VUE</span>
   </div>
 </template>
